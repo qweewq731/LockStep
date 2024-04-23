@@ -11,7 +11,7 @@ namespace UDPStepServer
         /// <summary>
         /// 地址
         /// </summary>
-        public char[] Address { get; set; }
+        public long Address { get; set; }
         /// <summary>
         /// 端口号
         /// </summary>
