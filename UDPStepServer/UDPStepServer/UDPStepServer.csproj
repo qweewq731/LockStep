@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Room.cs" />
+    <Compile Include="Define\LockStepDefine.cs" />
+    <Compile Include="Manager\LockStepManager.cs" />
     <Compile Include="Model\UDPClientModel.cs" />
     <Compile Include="UDP.cs" />
     <Compile Include="Data\UDPClient.cs" />

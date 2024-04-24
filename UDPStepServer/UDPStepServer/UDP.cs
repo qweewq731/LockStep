@@ -8,6 +8,11 @@ namespace UDPStepServer
     {
         Socket socket;
 
+        public UDP() 
+        {
+            Init();
+        }
+
         private void Init()
         {
             //获得本机IP

@@ -11,20 +11,20 @@ namespace UDPStepServer
         /// <summary>
         /// 对应的房间号和玩家ID，方便传输
         /// </summary>
-        public Dictionary<string, UDPClientData[]> DataDic;
+        public Dictionary<string, Room> DataDic;
 
         /// <summary>
         /// 取消连接
         /// </summary>
         public void DisConnect(string adress,UDPClientData data)
         {
-            if (DataDic.TryGetValue(adress, out UDPClientData[] GropData))
+            if (DataDic.TryGetValue(adress, out Room Room))
             {
-                for (int i = 0; i < GropData.Length; i++)
+                for (int i = 0; i < Room.ClientData.Length; i++)
                 {
-                    if (GropData[i].UUID == data.UUID)
+                    if (Room.ClientData[i].UUID == data.UUID)
                     {
-                        GropData[i].Connect = false;
+                        Room.ClientData[i].Connect = false;
                     }
                 }
             }
@@ -37,15 +37,15 @@ namespace UDPStepServer
         /// <param name="data"></param>
         public void ReConnect(string adress, UDPClientData data)
         {
-            if (DataDic.TryGetValue(adress, out UDPClientData[] GropData))
+            if (DataDic.TryGetValue(adress, out Room Room))
             {
-                for (int i = 0; i < GropData.Length; i++)
+                for (int i = 0; i < Room.ClientData.Length; i++)
                 {
-                    if (GropData[i].UUID == data.UUID)
+                    if (Room.ClientData[i].UUID == data.UUID)
                     {
-                        GropData[i].Address = data.Address;
-                        GropData[i].Port = data.Port;
-                        GropData[i].Connect = true;
+                        Room.ClientData[i].Address = data.Address;
+                        Room.ClientData[i].Port = data.Port;
+                        Room.ClientData[i].Connect = true;
                     }
                 }
             }
