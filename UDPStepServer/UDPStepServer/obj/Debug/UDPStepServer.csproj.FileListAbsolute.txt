@@ -1,0 +1,6 @@
+G:\mym\LockStep\UDPStepServer\UDPStepServer\bin\Debug\UDPStepServer.dll
+G:\mym\LockStep\UDPStepServer\UDPStepServer\bin\Debug\UDPStepServer.pdb
+G:\mym\LockStep\UDPStepServer\UDPStepServer\obj\Debug\UDPStepServer.csproj.AssemblyReference.cache
+G:\mym\LockStep\UDPStepServer\UDPStepServer\obj\Debug\UDPStepServer.csproj.CoreCompileInputs.cache
+G:\mym\LockStep\UDPStepServer\UDPStepServer\obj\Debug\UDPStepServer.dll
+G:\mym\LockStep\UDPStepServer\UDPStepServer\obj\Debug\UDPStepServer.pdb

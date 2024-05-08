@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\OrderData.cs" />
     <Compile Include="Data\Room.cs" />
     <Compile Include="Define\LockStepDefine.cs" />
     <Compile Include="Manager\LockStepManager.cs" />
