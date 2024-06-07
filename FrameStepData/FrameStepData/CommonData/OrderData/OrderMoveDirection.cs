@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UDPStepServer.Data;
-
-namespace UDPStepServer
+﻿using FrameStepData;
+namespace FrameStepData
 {
-    internal class OrderMoveDirection : OrderDataBase
+    public  class OrderMoveDirection : OrderDataBase
     {
 
     }

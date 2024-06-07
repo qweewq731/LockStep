@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UDPStepServer.Data
+namespace FrameStepData
 {
     /// <summary>
     /// 考虑一下角色当期奥状态，如果没有输入，我们是沿用之前的指令集？

@@ -1,0 +1,6 @@
+C:\Users\Admin_Hy\Desktop\dll\FrameStepData.dll
+C:\Users\Admin_Hy\Desktop\dll\FrameStepData.pdb
+G:\mym\LockStep\FrameStepData\FrameStepData\obj\Debug\FrameStepData.csproj.AssemblyReference.cache
+G:\mym\LockStep\FrameStepData\FrameStepData\obj\Debug\FrameStepData.csproj.CoreCompileInputs.cache
+G:\mym\LockStep\FrameStepData\FrameStepData\obj\Debug\FrameStepData.dll
+G:\mym\LockStep\FrameStepData\FrameStepData\obj\Debug\FrameStepData.pdb
